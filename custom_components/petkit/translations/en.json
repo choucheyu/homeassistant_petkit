@@ -254,13 +254,31 @@
     },
     "select": {
       "avoid_repeat_cleaning_interval": {
-        "name": "Avoid repeat cleaning interval"
+        "name": "Avoid repeat cleaning interval",
+        "state": {
+          "disabled": "Disabled",
+          "5_min": "5 minutes",
+          "10_min": "10 minutes",
+          "15_min": "15 minutes",
+          "30_min": "30 minutes",
+          "45_min": "45 minutes",
+          "1_hour": "1 hour",
+          "1_hour_15_min": "1 hour 15 minutes",
+          "1_hour_30_min": "1 hour 30 minutes",
+          "1_hour_45_min": "1 hour 45 minutes",
+          "2_hour": "2 hours"
+        }
       },
       "eat_detection_sensitivity": {
         "name": "IA eat detection sensitivity"
       },
       "litter_type": {
-        "name": "Litter type"
+        "name": "Litter type",
+        "state": {
+          "bentonite": "Bentonite",
+          "tofu": "Tofu",
+          "mixed": "Mixed"
+        }
       },
       "working_mode": {
         "name": "Working mode"

@@ -254,13 +254,31 @@
     },
     "select": {
       "avoid_repeat_cleaning_interval": {
-        "name": "避免重複清理間隔"
+        "name": "避免重複清理間隔",
+        "state": {
+          "disabled": "停用",
+          "5_min": "5 分鐘",
+          "10_min": "10 分鐘",
+          "15_min": "15 分鐘",
+          "30_min": "30 分鐘",
+          "45_min": "45 分鐘",
+          "1_hour": "1 小時",
+          "1_hour_15_min": "1 小時 15 分鐘",
+          "1_hour_30_min": "1 小時 30 分鐘",
+          "1_hour_45_min": "1 小時 45 分鐘",
+          "2_hour": "2 小時"
+        }
       },
       "eat_detection_sensitivity": {
         "name": "吃飯偵測靈敏度"
       },
       "litter_type": {
-        "name": "貓砂種類"
+        "name": "貓砂種類",
+        "state": {
+          "bentonite": "膨潤土",
+          "tofu": "豆腐砂",
+          "mixed": "混合砂"
+        }
       },
       "working_mode": {
         "name": "運作模式"
