@@ -2,7 +2,7 @@
   "config": {
     "error": {
       "account_exists": "帳號已存在",
-      "connection": "無法連接到伺服器",
+      "connection": "無法連線到伺服器",
       "unknown": "發生未知錯誤，請檢查日誌"
     },
     "step": {
@@ -11,12 +11,12 @@
           "password": "密碼",
           "region": "區域",
           "time_zone": "時區",
-          "username": "使用者名稱/手機號碼"
+          "username": "使用者名稱／手機號碼"
         },
         "data_description": {
           "region": "此欄位將根據 Home Assistant 設定自動帶入。如果您的區域不同，請從列表中選擇。",
           "time_zone": "此欄位將根據 Home Assistant 設定自動帶入。如果您的時區不同，請從列表中選擇。",
-          "username": "輸入您的小佩帳號電子郵件，如果您是中國使用者，請輸入綁定的手機號碼"
+          "username": "請輸入您的小佩帳號電子郵件；如果您是中國使用者，請輸入綁定的手機號碼"
         },
         "description": "請輸入你的小佩帳號資訊"
       }
@@ -482,7 +482,7 @@
         "name": "上次使用日期"
       },
       "connection_state": {
-        "name": "連接狀態"
+        "name": "連線狀態"
       },
       "pet_last_use_duration": {
         "name": "上次使用時長"
@@ -506,7 +506,7 @@
         "name": "水位"
       },
       "raw_distribution_data": {
-        "name": "原始分配數據"
+        "name": "原始分配資料"
       },
       "rssi": {
         "name": "信號強度"
@@ -699,13 +699,13 @@
         "name": "感應出水"
       },
       "refill_notif": {
-        "name": "缺糧通知"
+        "name": "缺飼料通知"
       },
       "sand_saving": {
         "name": "節省貓砂"
       },
       "shortage_alarm": {
-        "name": "空糧報警"
+        "name": "飼料不足警示"
       },
       "surplus_control": {
         "name": "碗內剩餘飼料控制"
@@ -735,19 +735,19 @@
         "name": "裝置清理時通知"
       },
       "privacy_camera_off": {
-        "name": "回家模式: 攝影機關閉"
+        "name": "回家模式：關閉攝影機"
       },
       "privacy_camera_inward": {
         "name": "回家模式: 攝影機轉向筒內"
       },
       "privacy_microphone_off": {
-        "name": "回家模式: 麥克風關閉"
+        "name": "回家模式：關閉麥克風"
       },
       "ai_ph_detection": {
-        "name": "AI pH值檢測"
+        "name": "AI pH 值偵測"
       },
       "ai_yowling": {
-        "name": "AI 貓叫檢測"
+        "name": "AI 貓叫偵測"
       }
     },
     "light": {
@@ -757,7 +757,7 @@
     },
     "camera": {
       "camera": {
-        "name": "攝影機視頻流"
+        "name": "攝影機影片串流"
       }
     },
     "text": {
@@ -781,37 +781,37 @@
           "time_zone": "時區"
         },
         "data_description": {
-          "always_on_stream": "保持內部轉播會話處於預熱狀態，讓瀏覽器觀看、WHEP 客戶端以及此攝影機的通用流消費者都能更快連接。該轉播流也可以被其他消費者複用。這樣會持續維持一個上游會話，並佔用更多裝置和雲端資源。"
+          "always_on_stream": "保持內部轉播工作階段處於預熱狀態，讓瀏覽器觀看、WHEP 用戶端以及此攝影機的通用串流使用者都能更快連線。該轉播串流也可以被其他使用者重複使用。這樣會持續維持一個上游工作階段，並佔用更多裝置與雲端資源。"
         },
         "sections": {
           "bluetooth_options": {
             "data": {
               "ble_relay_enabled": "啓用藍牙中繼",
-              "scan_interval_bluetooth": "藍牙刷新間隔（分鐘）"
+              "scan_interval_bluetooth": "藍牙重新整理間隔（分鐘）"
             },
             "data_description": {
-              "ble_relay_enabled": "禁用後，只有在通過應用程序刷新裝置時纔會進行飲水機數據更新。"
+              "ble_relay_enabled": "停用後，只有在透過應用程式重新整理裝置時，才會更新飲水機資料。"
             },
-            "description": "這些選項只有在您有飲水機和至少一個可用作藍牙中繼的裝置（如餵食器、貓砂盆）時纔有效。有關詳細資訊請參閱小佩應用程序。",
+            "description": "這些選項只有在您有飲水機，且至少有一個可作為藍牙中繼的裝置（例如餵食器、貓砂盆）時才會生效。詳細資訊請參閱小佩應用程式。",
             "name": "藍牙選項"
           },
           "medias_options": {
             "data": {
               "delete_media_after": "在指定時間之後刪除媒體（天數）",
-              "media_dl_image": "獲取圖片",
-              "media_dl_video": "獲取視頻",
+              "media_dl_image": "取得圖片",
+              "media_dl_video": "取得影片",
               "media_ev_type": "要下載的事件類型",
               "media_path": "媒體路徑",
-              "scan_interval_media": "媒體刷新間隔（分鐘）"
+              "scan_interval_media": "媒體重新整理間隔（分鐘）"
             },
             "data_description": {
               "delete_media_after": "在指定天數後刪除下載的媒體。(0 = 永不刪除）",
               "media_dl_image": "從您的裝置下載所有圖片，按以下選定的事件進行篩選。（無需 Care+ 訂閱）",
-              "media_dl_video": "從您的裝置下載所有視頻，按以下選定的事件進行篩選。（需要激活 Care+ 訂閱）",
+              "media_dl_video": "從您的裝置下載所有影片，並依下方選定的事件進行篩選。（需要啟用 Care+ 訂閱）",
               "media_path": "媒體存儲的路徑。如果未指定，媒體將存儲在 Home Assistant 的 /media 文件夾中。",
-              "scan_interval_media": "從小佩伺服器下載新媒體（圖片和視頻）的時間間隔。"
+              "scan_interval_media": "從小佩伺服器下載新媒體（圖片和影片）的時間間隔。"
             },
-            "description": "這些選項只有在您至少有一個能夠捕捉圖像和視頻的裝置（如餵食器、貓砂盆）時纔有效。",
+            "description": "這些選項只有在您至少有一個能夠擷取影像和影片的裝置（例如餵食器、貓砂盆）時才會生效。",
             "name": "媒體選項"
           }
         },
