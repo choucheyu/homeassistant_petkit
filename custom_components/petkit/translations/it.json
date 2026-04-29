@@ -1,9 +1,9 @@
 {
   "config": {
     "error": {
-      "account_exists": "Questo account esiste gi\u00e0.",
+      "account_exists": "Questo account esiste già.",
       "connection": "Impossibile connettersi al server.",
-      "unknown": "Si \u00e8 verificato un errore sconosciuto, controlla i log."
+      "unknown": "Si è verificato un errore sconosciuto, controlla i log."
     },
     "step": {
       "user": {
@@ -168,19 +168,37 @@
     },
     "select": {
       "avoid_repeat_cleaning_interval": {
-        "name": "Intervallo anti-ripetizione pulizia"
+        "name": "Intervallo anti-ripetizione pulizia",
+        "state": {
+          "disabled": "Disattivato",
+          "5_min": "5 minuti",
+          "10_min": "10 minuti",
+          "15_min": "15 minuti",
+          "30_min": "30 minuti",
+          "45_min": "45 minuti",
+          "1_hour": "1 ora",
+          "1_hour_15_min": "1 ora e 15 minuti",
+          "1_hour_30_min": "1 ora e 30 minuti",
+          "1_hour_45_min": "1 ora e 45 minuti",
+          "2_hour": "2 ore"
+        }
       },
       "eat_detection_sensitivity": {
-        "name": "Sensibilit\u00e0 rilevamento IA pasto"
+        "name": "Sensibilità rilevamento IA pasto"
       },
       "litter_type": {
-        "name": "Tipo lettiera"
+        "name": "Tipo lettiera",
+        "state": {
+          "bentonite": "Bentonite",
+          "tofu": "Tofu",
+          "mixed": "Mista"
+        }
       },
       "move_detection_sensitivity": {
-        "name": "Sensibilit\u00e0 rilevamento movimento"
+        "name": "Sensibilità rilevamento movimento"
       },
       "pet_detection_sensitivity": {
-        "name": "Sensibilit\u00e0 rilevamento IA animale"
+        "name": "Sensibilità rilevamento IA animale"
       },
       "surplus_level": {
         "name": "Livello controllo surplus"
@@ -191,7 +209,7 @@
         "name": "Aria purificata"
       },
       "amount_eaten": {
-        "name": "Quantit\u00e0 mangiata"
+        "name": "Quantità mangiata"
       },
       "average_time": {
         "name": "Uso medio"
@@ -478,7 +496,7 @@
         "name": "Luce indicatore"
       },
       "kitten_mode": {
-        "name": "Modalit\u00e0 gattino"
+        "name": "Modalità gattino"
       },
       "lack_liquid_notify": {
         "name": "Notifica mancanza liquido purificante"
@@ -547,7 +565,7 @@
         "name": "Copertura rifiuti"
       },
       "work_log_notify": {
-        "name": "Notifica esecuzione attivit\u00e0 programmate"
+        "name": "Notifica esecuzione attività programmate"
       },
       "work_notify": {
         "name": "Notifica pulizia dispositivo"

@@ -254,13 +254,31 @@
     },
     "select": {
       "avoid_repeat_cleaning_interval": {
-        "name": "Interval herhaald reinigen vermijden"
+        "name": "Interval herhaald reinigen vermijden",
+        "state": {
+          "disabled": "Uitgeschakeld",
+          "5_min": "5 minuten",
+          "10_min": "10 minuten",
+          "15_min": "15 minuten",
+          "30_min": "30 minuten",
+          "45_min": "45 minuten",
+          "1_hour": "1 uur",
+          "1_hour_15_min": "1 uur 15 minuten",
+          "1_hour_30_min": "1 uur 30 minuten",
+          "1_hour_45_min": "1 uur 45 minuten",
+          "2_hour": "2 uur"
+        }
       },
       "eat_detection_sensitivity": {
         "name": "AI eetdetectiegevoeligheid"
       },
       "litter_type": {
-        "name": "Strooiseltype"
+        "name": "Strooiseltype",
+        "state": {
+          "bentonite": "Bentoniet",
+          "tofu": "Tofu",
+          "mixed": "Gemengd"
+        }
       },
       "working_mode": {
         "name": "Werkingsmodus"
