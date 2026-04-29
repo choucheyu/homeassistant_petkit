@@ -189,7 +189,7 @@
         "name": "清理"
       },
       "level_litter": {
-        "name": "整平"
+        "name": "貓砂整平"
       },
       "reset_filter": {
         "name": "重設濾芯"
@@ -594,7 +594,7 @@
         "name": "攝影機"
       },
       "child_lock": {
-        "name": "童鎖"
+        "name": "兒童鎖"
       },
       "cont_rotation": {
         "name": "迴轉不中斷"
@@ -618,7 +618,7 @@
         "name": "出餐通知"
       },
       "display": {
-        "name": "顯示屏"
+        "name": "顯示器"
       },
       "do_not_disturb": {
         "name": "免打擾"

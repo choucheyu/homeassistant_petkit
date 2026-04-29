@@ -103,20 +103,20 @@ INPUT_FEED_PATTERN = "^(0|[1-9][0-9]?|1[0-9]{2}|200)$"
 # Select list mapping
 SURPLUS_FOOD_LEVEL_OPT = {0: "Disabled", 1: "Less", 2: "Moderate", 3: "Full"}
 IA_DETECTION_SENSITIVITY_OPT = {1: "Low", 2: "Mid", 3: "High"}
-LITTER_TYPE_OPT = {1: "Bentonite", 2: "Tofu", 3: "Mixed"}
+LITTER_TYPE_OPT = {1: "膨潤土", 2: "豆腐砂", 3: "混合砂"}
 
 CLEANING_INTERVAL_OPT = {
-    0: "Disabled",
-    300: "5min",
-    600: "10min",
-    900: "15min",
-    1800: "30min",
-    2700: "45min",
-    3600: "1h",
-    4500: "1h15min",
-    5400: "1h30min",
-    6300: "1h45min",
-    7200: "2h",
+    0: "停用",
+    300: "5 分鐘",
+    600: "10 分鐘",
+    900: "15 分鐘",
+    1800: "30 分鐘",
+    2700: "45 分鐘",
+    3600: "1 小時",
+    4500: "1 小時 15 分鐘",
+    5400: "1 小時 30 分鐘",
+    6300: "1 小時 45 分鐘",
+    7200: "2 小時",
 }
 
 MANUAL_FEED_OPT = {
